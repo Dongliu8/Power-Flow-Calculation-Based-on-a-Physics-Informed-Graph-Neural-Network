@@ -119,6 +119,7 @@ def cal_Vbus(case_dic,Vbus_dic):
 
 
 
+
 def make_PINN():
     "model0.get_layer('dense1')"
     inputs1 = tf.keras.Input(shape=(39,))
